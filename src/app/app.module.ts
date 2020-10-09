@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { GemsComponent } from './gems/gems.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { BetamonsComponent } from './betamons/betamons.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     StakeComponent,
     GemsComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    BetamonsComponent
   ],
   imports: [
     BrowserModule,

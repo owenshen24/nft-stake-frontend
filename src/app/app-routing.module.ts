@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { GemsComponent } from './gems/gems.component';
 import { StakeCountComponent } from './stake-count/stake-count.component';
 import { StakeComponent } from './stake/stake.component';
+import { BetamonsComponent } from './betamons/betamons.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,11 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'betamons',
+    component: BetamonsComponent,
     pathMatch: 'full'
   },
   {
