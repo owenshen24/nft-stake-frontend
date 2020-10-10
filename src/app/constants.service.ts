@@ -33,11 +33,11 @@ export class ConstantsService {
       id = 5;
     }
 
-    if (startBlock.isLessThanOrEqualTo(new BigNumber(10993000))) {
-      folder = "/genesis";
-      ext = ".gif";
-    }
-    else if (isStaked && endBlock.minus(startBlock).isGreaterThan(new BigNumber(10000))) {
+    // if (startBlock.isLessThanOrEqualTo(new BigNumber(10993000))) {
+    //   folder = "/genesis";
+    //   ext = ".gif";
+    // }
+    if (isStaked && endBlock.minus(startBlock).isGreaterThan(new BigNumber(10000))) {
       folder = "/8bit";
     }
 
