@@ -73,6 +73,9 @@
     flex: unset;
     text-align: center;
   }
+  .navbar {
+    flex-wrap: wrap; 
+  }
 }
 @media only screen and (max-width: 600px) {
   #wallet-col {
